@@ -149,7 +149,7 @@ namespace CA_BilgeMarket
                     else if(item is Toy)
                     {
                         Toy toy = (Toy)item;
-                        Console.WriteLine("Type: " + toy.Type + " Material: " + toy.Material + " Price: " + toy.Fiyat + "Price with KDV: " + toy.KdvFiyat);
+                        Console.WriteLine("Type: " + toy.Type + " Material: " + toy.Material + " Price: " + toy.Fiyat + " Price with KDV: " + toy.KdvFiyat);
                     }
                 }
             }
