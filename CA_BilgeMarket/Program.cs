@@ -104,7 +104,7 @@ namespace CA_BilgeMarket
                 else if (selection == 2)
                 {
                     Toy();
-                    Console.WriteLine("Elektronik alanını seçiniz.");
+                    Console.WriteLine("Oyuncak alanını seçiniz.");
                     int tSelection = int.Parse(Console.ReadLine());
 
                     switch (tSelection)
